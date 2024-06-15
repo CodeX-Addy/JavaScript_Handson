@@ -16,3 +16,10 @@ let f = BigInt("528");
 let g;
 console.log(a,b,c,d,e,f,g);
 console.log(typeof a,typeof b,typeof c,typeof d,typeof e,typeof f, typeof g);
+
+// Pointer 2: Non-Primitive Datatype : Objects
+let obj = {
+    Name: "Aditya",
+    Age: 20
+}
+console.log(obj["Name"])
