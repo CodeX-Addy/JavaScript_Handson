@@ -5,5 +5,5 @@ This tutorial covers the basics of JavaScript
 
 ## Installation Guide 
 - JS is already installed in your browser when you look at developer's tool.
-- You can also install Node.js(<a href= "https://nodejs.org/en">install</a> )for server-side development or running scripts in your IDEs.
+- You can also install <a href= "https://nodejs.org/en">NodeJS</a> for server-side development or running scripts in your IDEs.
 
