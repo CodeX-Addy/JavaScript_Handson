@@ -20,3 +20,8 @@ var b = 20; //var can be redeclared while let don't
 
 console.log(a); //Eso
 console.log(b); //40
+
+//Pointer 3: const
+const x = "Esoteric";
+//x = "Eso"; //Error: Assignment to constant variable.
+console.log(x); //Esoteric
