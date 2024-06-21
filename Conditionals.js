@@ -11,4 +11,8 @@ else
 
 //In the similar way, we can use else if statements
 
+//Ternary operators
+let marks = 70;
+marks>80?console.log("Pass"):console.log("Fail");
+
 
