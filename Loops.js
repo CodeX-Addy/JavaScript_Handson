@@ -28,14 +28,16 @@ for(let i in obj){
  }
 
  //While loop
- let x = 0;
+let x = prompt("Enter your number: ");
+x = Number.parseInt(x);
  while(x<3){
     console.log(x);
     x++;
  }
 
  //do-while loop 
- let y = 0;
+let y = prompt("Enter your number: ");
+y = Number.parseInt(y);
  do{
     console.log(y);
     y++;
