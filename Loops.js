@@ -26,3 +26,17 @@ for(let i in obj){
  for(let a of "Aditya"){
     console.log(a);
  }
+
+ //While loop
+ let x = 0;
+ while(x<3){
+    console.log(x);
+    x++;
+ }
+
+ //do-while loop 
+ let y = 0;
+ do{
+    console.log(y);
+    y++;
+ }while(y<3);
