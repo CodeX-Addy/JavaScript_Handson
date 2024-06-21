@@ -1,4 +1,4 @@
-/*//For loop with sum of n natural numbers example
+//For loop with sum of n natural numbers example
 let sum = 0;
 let n = prompt("Enter your number: ");
 n = Number.parseInt(n);
@@ -6,9 +6,9 @@ for(let i = 0; i < n; i++){
     sum += (i+1);
 }
 console.log(sum);
-*/
 
-//For In loops --> mostly used for objects
+
+//For In loops --> mostly used for objects and arrays
 
 let obj = {
     student1 : 100,
@@ -20,3 +20,9 @@ let obj = {
 for(let i in obj){
     console.log("Marks of " + i + " is " + obj[i]);
 }
+
+//For of loop --> only for iterable objects like arrays, strings
+
+ for(let a of "Aditya"){
+    console.log(a);
+ }
