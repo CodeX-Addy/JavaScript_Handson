@@ -12,3 +12,4 @@ console.log(`${n1} is a friend of ${n2}`)
 
 let f = "John \nDoe";
 console.log(f);
+
