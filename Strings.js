@@ -28,3 +28,7 @@ console.log(name.concat(n)); //Concat
 
 let m = " abn ";
 console.log(m.trim()); //Trim
+
+//Quick Practice: Extract 500 from given string "Credit Score is 500"
+let str = "Credit Score is 500";
+console.log(Number.parseInt(str.slice(16)));
