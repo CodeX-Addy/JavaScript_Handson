@@ -52,3 +52,14 @@ console.log(ex1)
 //Slice
 let ex2 = [1,2,3,4,5]
 console.log(ex2.slice(2, 4)); //Returns the elements from 2nd index
+
+
+//Arrays with loops
+let ex3 = [1,2,3,4,5]
+ex3.forEach((element) => {
+    console.log(element);
+})
+
+//Array.from() : converts an object into an array
+let ex4 = Array.from("Aditya");
+console.log(ex4); 
