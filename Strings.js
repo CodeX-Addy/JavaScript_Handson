@@ -13,3 +13,13 @@ console.log(`${n1} is a friend of ${n2}`)
 let f = "John \nDoe";
 console.log(f);
 
+//String Methods
+
+let name = "Esoteric";
+console.log(name.length); //Length
+console.log(name.toUpperCase()); //Upper case
+console.log(name.toLowerCase()); //Lower case
+console.log(name.slice(2, 5)); //Slicing
+console.log(name.replace("Esoteric", "Esoterix")); //Replace
+let n = " Guy";
+console.log(name.concat(n)); //Concat
