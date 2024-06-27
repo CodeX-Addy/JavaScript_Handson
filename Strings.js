@@ -1,3 +1,5 @@
+//String is immutable in js, whatever functions i've performed in below, they all return new string
+
 let a = "Esoteric";
 console.log(a.length);
 
@@ -23,3 +25,6 @@ console.log(name.slice(2, 5)); //Slicing
 console.log(name.replace("Esoteric", "Esoterix")); //Replace
 let n = " Guy";
 console.log(name.concat(n)); //Concat
+
+let m = " abn ";
+console.log(m.trim()); //Trim
