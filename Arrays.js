@@ -63,3 +63,25 @@ ex3.forEach((element) => {
 //Array.from() : converts an object into an array
 let ex4 = Array.from("Aditya");
 console.log(ex4); 
+
+//Map:- It will returns a new array
+let array1 = [10,20,30]
+array1.map((value, index, array)=>{
+    console.log(value, index, array);
+})
+
+
+//Filter:- As name suggests : it will also returns a new array
+let array2 = [50,60,70]
+let a2 = array2.filter((a)=>{
+    return a < 70
+})
+console.log(a2)
+
+//Reduce: Below function takes 1&2 initially and add then take result + next then add and so on..
+
+let array3 = [1,2,3,4,5]
+let a3 = array3.reduce((a, b)=>{
+    return a+b;
+})
+console.log(a3)
