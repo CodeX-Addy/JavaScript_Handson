@@ -2,7 +2,7 @@ console.log(a); //We'll get an error since we're trying to access 'a' before ini
 
 //Temporal Dead Zone : It is a phase b/w hoisting a variable till the declaration
 
-//Hoisting means to declare variables undefined by the JS engine before initializing
+//Hoisting means to declare variables undefined by the JS engine before initializing that means the memory for the variables will be allocated, if it is used before declaration/initialization
 
 console.log(b); //It will not throw any error rather returns undefined, since b with var declaration will be allocated in different memory space (which is global)
 
