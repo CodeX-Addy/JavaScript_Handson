@@ -8,3 +8,14 @@ console.log(b); //It will not throw any error rather returns undefined, since b 
 
 let a = 10;
 var b = 100;
+
+//With the var declaration of b, we can access it via window object in console since var declaration will be global
+
+//In case of let & const variables, there will be a separate memory declaration
+
+//On global level, 'this' keyword is equivalent to the window object which means
+//this.b will gives 100 but this.a will gives undefined
+
+// We can't redeclare the variable having same name defined with let, but it is possible with var
+let c = 5;
+let c = 10; //It will throw a syntax error since we're trying to redeclare the
