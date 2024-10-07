@@ -18,4 +18,11 @@ var b = 100;
 
 // We can't redeclare the variable having same name defined with let, but it is possible with var
 let c = 5;
-let c = 10; //It will throw a syntax error since we're trying to redeclare the
+let c = 10; //It will throw a syntax error since we're trying to redeclare 'c'
+
+//Difference b/w let & const
+let d;
+d = 10; //This is totally fine
+
+const e;
+e = 1000; // It will give us syntax error, we've to initialize the const during declaration
