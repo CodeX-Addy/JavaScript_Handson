@@ -28,3 +28,11 @@ b();
 
 //Anonymous functions --> A function without any name
 //function (){} --> it will give us an error since these functions are ideal when we've to use it as a value
+
+//Named function expression
+//Similar like function expression, but instead of dec anonymous as a value, it will give a name to it as
+var c = function d(){
+    console.log("d called");
+}
+
+//But corner case here is that, we cannot call d() directly, as it will give us a reference error
