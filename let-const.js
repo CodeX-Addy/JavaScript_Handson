@@ -6,8 +6,8 @@ console.log(a); //We'll get an error since we're trying to access 'a' before ini
 
 console.log(b); //It will not throw any error rather returns undefined, since b with var declaration will be allocated in different memory space (which is global)
 
-let a = 10;
-var b = 100;
+//let a = 10;
+//var b = 100;
 
 //With the var declaration of b, we can access it via window object in console since var declaration will be global
 
