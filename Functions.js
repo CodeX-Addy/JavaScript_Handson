@@ -12,7 +12,7 @@ const average = (x, y) => {
 
 console.log("Average of 4 and 5 is : ", average(4,5));
 
-// Function Statement
+// Function Statement aka Function Declaration
 function a(){
     console.log("a called..");
 }
@@ -25,3 +25,6 @@ var b = function(){
 b();
 
 //The basic difference b/w func statement & expression is "Hoisting", means we can access/call a() before statement as JS engine will reserves memory space for it, but in case of expression b() will leads to be undefined and will throw a reference error 
+
+//Anonymous functions --> A function without any name
+//function (){} --> it will give us an error since these functions are ideal when we've to use it as a value
