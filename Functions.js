@@ -36,3 +36,8 @@ var c = function d(){
 }
 
 //But corner case here is that, we cannot call d() directly, as it will give us a reference error
+
+//First class functions
+//A function can be treated as a variable, it can be passed as an argument to another function
+//it can be returned from a function
+
