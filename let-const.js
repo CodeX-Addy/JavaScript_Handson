@@ -26,3 +26,12 @@ d = 10; //This is totally fine
 
 const e;
 e = 1000; // It will give us syntax error, we've to initialize the const during declaration
+
+// Block scope
+// let & const are block scoped, var is function scoped
+{
+    var a = 100;
+    let b = 200;
+    const c = 300;
+}
+//Here we can access 'a' but not 'b' & 'c' since they are let & const variables
