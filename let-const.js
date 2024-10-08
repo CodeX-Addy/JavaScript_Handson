@@ -41,4 +41,4 @@ var s = 100;
 {
     var s = 200;
 }
-//Here we can access 's' as 200 since var is function scoped and it will override and also can be access with same value outside the scope which means 's' inside scope shadows outside's 's' scope
+//Here we can access 's' as 200 since var is function scoped and it will override and also can be access with same value outside the scope which means 's' inside scope shadows outside's 's' scope. This is because both s is declared with var and pointing to the same memory space called 'global' space
