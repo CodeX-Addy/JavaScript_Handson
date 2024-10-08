@@ -1,3 +1,4 @@
+//Major changes in functions after ECMAScript 6
 //Taking an example of averaging function in order to understand the syntax
 function avg(x, y){
     return (x + y) / 2;
