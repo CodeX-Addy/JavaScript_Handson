@@ -1,5 +1,5 @@
 //Callback function helps us to bring async nature in js
-//Otherwise js is synchronous in nature
+//Otherwise js is synchronous and single threaded in nature
 //Settimeout contains first argument as a callback function
 setTimeout(function print(){
     console.log("After 5 seconds");
