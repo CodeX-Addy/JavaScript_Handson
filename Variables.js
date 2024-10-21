@@ -5,7 +5,7 @@ a = "Eso";
 //console.log(a); // Eso
 
 // Pointer 2: var is globally, while let is locally scoped
-//Nowadays only let is widely used 
+//Using let is a good practice
 var b = 10;
 var b = 20; //var can be redeclared while let don't
 //console.log(b); // 20
