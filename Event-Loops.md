@@ -34,3 +34,5 @@ console.log("End");
 - The event listener stays inside the web api environment until someone clicks the button, that's why it is in callbacks category
 
 - Microtask queue: Similar to callback queue in terms of event loop operations, but it contains higher priority tasks than regular tasks.
+
+- The tasks that comes with promises and mutation observer will comes into microtask queue, which is known as Microtasks.
