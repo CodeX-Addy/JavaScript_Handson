@@ -13,3 +13,16 @@ function x(y){
 x(function y(){
     console.log("y");
 });
+
+// Event Listeners are used to listen to events on the DOM
+// Example usecase: We need to count the number of times, button clicked on browser
+//You have to make a html for that and add the element button having id "click"
+
+function attachEventListener(){
+    let count = 0;
+    document.getElementById("click").addEventListener(
+        "click",function xyz(){
+            console.log("Button Clicked", ++count);
+        }
+    )
+}
