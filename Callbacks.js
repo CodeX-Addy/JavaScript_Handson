@@ -18,6 +18,7 @@ x(function y(){
 // Example usecase: We need to count the number of times, button clicked on browser
 //You have to make a html for that and add the element button having id "click"
 
+//This is an example of closure where event listener is wrapped around a function to make sure the data integrity
 function attachEventListener(){
     let count = 0;
     document.getElementById("click").addEventListener(
@@ -26,3 +27,4 @@ function attachEventListener(){
         }
     )
 }
+attachEventListener();
