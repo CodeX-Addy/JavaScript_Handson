@@ -8,7 +8,7 @@
 - DOM Traversal (like we write document.querySelector)
 - fetch
 - console
-- window
+- window (a global object to access the mentioned things)
 - document
 - navigator
 - location
