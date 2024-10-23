@@ -16,7 +16,7 @@ greetlater();
 
 //Now what is a promise?
 /*
-A promise in JavaScript is an object that represents the eventual completion (or failure) of an asynchronous operation. It allows you to handle asynchronous tasks more easily.
+A promise in JavaScript is an object that represents the eventual completion (or failure) of an asynchronous operation. It allows us to handle asynchronous tasks more easily.
 
 A promise has three states:
 
@@ -41,3 +41,29 @@ myPromise.then((message)=>{
 }).catch((error) => {
     console.log(error);
 })
+
+
+/*
+async and await make working with promises more readable and maintainable. Instead of using .then() and .catch(), we can write asynchronous code as if it were synchronous.
+
+async is a keyword used to define a function that returns a promise.
+await pauses the execution of an async function until the promise is resolved or rejected.
+ */
+
+// Simulating an asynchronous task using a promise
+function fetchData() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve("Data fetched!");
+        }, 2000);
+    });
+}
+
+// Using async and await
+async function getData() {
+    console.log("Fetching data...");
+    const result = await fetchData();
+    console.log(result);  // Output: "Data fetched!" after 2 seconds
+}
+
+getData();
