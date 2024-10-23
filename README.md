@@ -1,6 +1,6 @@
-# A Basic JS Tutorial
+# The JavaScript Tutorial....All you need to know!!
 
-This tutorial covers the basics of JavaScript
+This tutorial covers most of the topics of JavaScript
 - JS is dynamically typed language => data types of variable may change at run time.
 
 ## Installation Guide 
