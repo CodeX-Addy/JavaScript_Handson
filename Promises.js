@@ -8,7 +8,7 @@ greet();
 // JavaScript is single-threaded, meaning it can handle one task at a time. However, with asynchronous operations (like API calls or setTimeout), JavaScript can handle tasks in the background without blocking the main thread.
 function greetlater(){
     setTimeout(() => {
-        console.log("Hey there after few seconds..");
+        console.log("Hey there after five seconds..");
     }, 5000)
 }
 
@@ -67,3 +67,17 @@ async function getData() {
 }
 
 getData();
+
+
+// We can combine multiple promises as well and can be run concurrently 
+const promise1 = new Promise((resolve) => setTimeout(() => resolve("Task 1 complete"), 10000));
+const promise2 = new Promise((resolve) => setTimeout(() => resolve("Task 2 complete"), 20000));
+
+async function runTasks() {
+    console.log("Starting tasks...");
+    const results = await Promise.all([promise1, promise2]);
+    console.log(results);  // Output will be: ["Task 1 complete", "Task 2 complete"]
+}
+
+runTasks();
+
