@@ -9,7 +9,7 @@
 - Now "callback queue" will comes into picture, that basically stores the remaining callback functions
 - After 5 sec, the call stack will be empty and the callback queue will be non-empty
 - So, the cb() function will be moved from callback queue to call stack and will be executed
-- And this transition from callback queue to call stack will be done by "Event Loop"
+- And this transition from callback queue to call stack will be done by "Event Loop", which is continuously monitoring the state of call stack and callback queue.
 
 - Example 1
 ```js
