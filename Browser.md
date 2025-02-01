@@ -1,4 +1,4 @@
-# It includes some sections that are the part of browser but not of JS
+# It includes some sections that are the part of browser but not of JavaScript
 
 ### JS Engine is also a part of browser that contains call stack inside it, where js code executes
 - setTimeout
