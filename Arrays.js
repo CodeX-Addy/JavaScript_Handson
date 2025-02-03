@@ -53,7 +53,6 @@ console.log(ex1)
 let ex2 = [1,2,3,4,5]
 console.log(ex2.slice(2, 4)); //Returns the elements from 2nd index
 
-
 //Arrays with loops
 let ex3 = [1,2,3,4,5]
 ex3.forEach((element) => {
@@ -70,7 +69,6 @@ array1.map((value, index, array)=>{
     console.log(value, index, array);
 })
 
-
 //Filter:- As name suggests : it will also returns a new array
 let array2 = [50,60,70]
 let a2 = array2.filter((a)=>{
@@ -79,7 +77,6 @@ let a2 = array2.filter((a)=>{
 console.log(a2)
 
 //Reduce: Below function takes 1&2 initially and add then take result + next then add and so on..
-
 let array3 = [1,2,3,4,5]
 let a3 = array3.reduce((a, b)=>{
     return a+b;
