@@ -1,5 +1,5 @@
-//You need to create a html file to navigate changes on browser
-///Simply include this file inside <script> tag
+// You need to create a html file to navigate changes on browser
+/// Simply include this file inside <script> tag
 
 // Fetching users(name) from the jsonplaceholder API
 async function fetchUsers() {
