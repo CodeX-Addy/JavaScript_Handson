@@ -24,13 +24,12 @@ console.log(a.shift()); // Removes the first element of the array and returns th
 // Unshift
 console.log(a.unshift(1)); // Adds elements to the beginning of the array and returns the new length of arr
 
-/*
 //Delete
 let num = [1,2,3,4,5,6,7,8,9]
 delete num[0]
 console.log(num); //Removes the element at the specified index but does not change the length of array
 
-//Concat again
+// Concat again
 let num1 = [10,11]
 let num2 = [12,13]
 console.log(num.concat(num1, num2));
@@ -41,12 +40,13 @@ console.log(arr1.sort()); //Sorts the array in ascending order
 //In order to sort in reverse order we can use comparator function
 let comp = (a, b) => {
     return b-a ;
-}
-
-arr1.sort(comp); //Sorts the array in descending order
-console.log(arr1)
-
-arr1.reverse() //To reverse the array 
+    }
+    
+    arr1.sort(comp); //Sorts the array in descending order
+    console.log(arr1)
+    
+    arr1.reverse() //To reverse the array 
+    
 
 //Splice
 let ex1 = [1,2,3,4,5]
@@ -86,4 +86,4 @@ let a3 = array3.reduce((a, b)=>{
     return a+b;
 })
 console.log(a3)
-*/
+
