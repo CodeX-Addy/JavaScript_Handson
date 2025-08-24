@@ -1,8 +1,10 @@
-//Arrays in js is like lists in python in which we can store the values with different datatypes unlike c++ and java and they are mutable unlike strings
+// Pt1 Arrays in js is like lists in python in which we can store the values with different datatypes unlike c++ and java and they are mutable unlike strings
 
-let arr = [1,2,3,4,"Eso"]
-//console.log(arr)
+let arr = [1,2,3,4,"Eso", 0.4, {"name":"Addy"}]
 
+console.log(arr)
+
+/*
 //Arrays Methods in JS
 
 let a = [1,2,3,4];
@@ -82,3 +84,4 @@ let a3 = array3.reduce((a, b)=>{
     return a+b;
 })
 console.log(a3)
+*/
