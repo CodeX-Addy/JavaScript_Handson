@@ -8,24 +8,23 @@ console.log(arr)
 
 let a = [1,2,3,4, "Then", {"key": "value"}];
 
-console.log(a.length); // gives length of the array
+console.log(a.length); // Gives length of the array
 
+b = a.toString(); // Converts complete array to string
+
+console.log(a.join("-")); // Join elements and returns a string
+console.log(a.concat(5,6,7)); // Concatenates elements and returns a new array
+console.log(a.pop()); // Pop from the end
+console.log(a.push(5)); // Adds elements to the end of the array and returns the new length of arr
+console.log(a);
+
+// Shift
+console.log(a.shift()); // Removes the first element of the array and returns the removed element
+
+// Unshift
+console.log(a.unshift(1)); // Adds elements to the beginning of the array and returns the new length of arr
 
 /*
-let b = a.toString(); //Converts arrays into strings
-console.log(b);
-
-console.log(a.join("-")); //Join elements and returns a string
-console.log(a.concat(5,6,7)); //Concatenates elements and returns a new array
-console.log(a.pop()); //Pop from the end
-console.log(a.push(5)); //Adds elements to the end of the array and returns the new length of arr
-
-//Shift
-console.log(a.shift()); //Removes the first element of the array and returns the removed element
-
-//Unshift
-console.log(a.unshift(1)); 
-
 //Delete
 let num = [1,2,3,4,5,6,7,8,9]
 delete num[0]
