@@ -4,11 +4,14 @@ let arr = [1,2,3,4,"Eso", 0.4, {"name":"Addy"}]
 
 console.log(arr)
 
-/*
-//Arrays Methods in JS
+// Pt2 Arrays Methods in JS
 
-let a = [1,2,3,4];
-console.log(a.length); //length of the array
+let a = [1,2,3,4, "Then", {"key": "value"}];
+
+console.log(a.length); // gives length of the array
+
+
+/*
 let b = a.toString(); //Converts arrays into strings
 console.log(b);
 
