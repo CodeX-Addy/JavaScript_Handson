@@ -1,0 +1,15 @@
+{
+  "name": "js_handsonx",
+  "version": "1.0.0",
+  "description": "This tutorial covers most of the topics of JavaScript\r - JS is dynamically typed language => data types of variable may change at run time.",
+  "main": "Arrays.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
