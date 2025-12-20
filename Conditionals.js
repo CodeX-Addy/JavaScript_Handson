@@ -16,3 +16,23 @@ let marks = 70;
 marks>80?console.log("Pass"):console.log("Fail");
 
 
+//Switch case statements
+let first = 2;
+let second = 1;
+
+switch(op){
+    case '+':
+        console.log(first+second);
+        break;
+    case '-':
+        console.log(first-second);
+        break;
+    case '*':
+        console.log(first*second);
+        break;  
+    case '/':
+        console.log(first/second);
+        break;
+    default:
+        console.log("Invalid Operation");
+}
