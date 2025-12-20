@@ -19,6 +19,7 @@ marks>80?console.log("Pass"):console.log("Fail");
 //Switch case statements
 let first = 2;
 let second = 1;
+let op = '+';
 
 switch(op){
     case '+':
