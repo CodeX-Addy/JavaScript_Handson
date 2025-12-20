@@ -1,4 +1,4 @@
-//String is immutable in js, whatever functions i've performed in below, they all return new string
+//String is immutable in js, whatever functions i've performed below, they will return a new string as result type
 
 let a = "Esoteric";
 console.log(a.length);
