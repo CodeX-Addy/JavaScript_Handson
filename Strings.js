@@ -5,8 +5,8 @@ console.log(a.length);
 
 //Template literal
 
-let n1 = "John";
-let n2 = "Doe";
+let n1 = "Rahul";
+let n2 = "Aakash";
 
 console.log(`${n1} is a friend of ${n2}`)
 
