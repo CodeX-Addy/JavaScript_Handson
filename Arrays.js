@@ -42,10 +42,10 @@ let comp = (a, b) => {
     return b-a ;
 }
     
-    arr1.sort(comp); //Sorts the array in descending order
-    console.log(arr1)
+arr1.sort(comp); //Sorts the array in descending order
+console.log(arr1)
     
-    arr1.reverse() //To reverse the array 
+arr1.reverse() //To reverse the array 
     
 
 //Splice
@@ -86,4 +86,3 @@ let a3 = array3.reduce((a, b)=>{
     return a+b;
 })
 console.log(a3)
-
