@@ -12,8 +12,11 @@ console.log(`${n1} is a friend of ${n2}`)
 
 //Escape seq characters
 
-let f = "John \nDoe";
+let f = "Aditya \nTomar";
 console.log(f);
+// Output:
+// Aditya
+// Tomar
 
 //String Methods
 
