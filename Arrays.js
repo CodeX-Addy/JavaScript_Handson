@@ -40,7 +40,7 @@ console.log(arr1.sort()); //Sorts the array in ascending order
 //In order to sort in reverse order we can use comparator function
 let comp = (a, b) => {
     return b-a ;
-    }
+}
     
     arr1.sort(comp); //Sorts the array in descending order
     console.log(arr1)
