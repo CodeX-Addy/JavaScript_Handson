@@ -13,6 +13,14 @@ if(true){
     console.log(age); //Will print 25
 }
 
+function test(){
+    var a = 20;
+    console.log(a);
+}
+
+test() // Will give 20
+console.log(a); // error: a is not defined
+
 // Using let is a good practice
 
 var b = 10;
