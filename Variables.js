@@ -7,6 +7,12 @@ a = "Adi";
 
 // Pointer 2: var is globally, while let is locally scoped
 // if var is defined at outside any function, then it'll will be globally available
+
+var age = 25;
+if(true){
+    console.log(age); //Will print 25
+}
+
 // Using let is a good practice
 
 var b = 10;
