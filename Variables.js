@@ -6,6 +6,7 @@ a = "Adi";
 // console.log(a); -> Adi
 
 // Pointer 2: var is globally, while let is locally scoped
+// if var is defined at outside any function, then it'll will be globally available
 // Using let is a good practice
 
 var b = 10;
