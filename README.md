@@ -2,6 +2,7 @@
 
 This tutorial covers most of the topics of JavaScript
 - JS is dynamically typed language => data types of variable may change at run time.
+- The inbuilt browser's js engine for various browsers are: Apple -> JavaScriptCore, Google -> V8, Mozilla Firefox -> SpiderMonkey etc
 
 ## Installation Guide 
 - JS is already installed in your browser when you look at developer's tool.
