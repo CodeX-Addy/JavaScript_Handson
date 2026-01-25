@@ -1,4 +1,4 @@
-//We'll cover here some new things in operators as most of the functionalities is more or less similar to other programming languages
+// We'll cover here some new things in operators as most of the functionalities is more or less similar to other programming languages
 
 //Arithmetic operators
 let a = 45;
@@ -63,3 +63,7 @@ console.log(obj === undefined); // false
 let a = 5;
 
 (a > 10) ? console.log("yes") : console.log("no")
+
+// Short Circuiting
+//It means to avoid the unnecessary computation
+console.log(false || 6 || 7 || 'thanksgiving')  // it'll print 6, and ignores next evaluations
