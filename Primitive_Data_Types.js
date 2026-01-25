@@ -22,9 +22,14 @@ const sym3 = Symbol("foo");
 Symbol("foo") === Symbol("foo"); // false
 
 let e = true;
-let f = BigInt("528"); // If we need larger numbers than Number's range
+
+// If we need larger numbers than Number's range
+let f = BigInt("528"); 
+
+//Undefined
 let g;
-console.log(a,b,c,d,e,f,g);
+
+console.log(a,b,c,sym1,e,f,g);
 console.log(typeof a,typeof b,typeof c,typeof d,typeof e,typeof f, typeof g);
 
 // Pointer 2: Non-Primitive Datatype : Objects
