@@ -13,6 +13,15 @@ function avg(x, y){
 
 console.log("Average of 2 and 3 is : ", avg(2,3));
 
+// We can also assign functions as a variable as below:
+
+const multiplication = function(a, b){
+    return a * b;
+}
+
+let ans = multiplication(2,3);
+console.log(ans);
+
 //Arrow function --> mostly used
 const average = (x, y) => {
     return (x+y)/2;
@@ -37,15 +46,6 @@ b();
 //Anonymous functions --> A function without any name
 //function (){} --> it will give us an error since these functions are ideal when we've to use it as a value
 
-//Named function expression
-//Similar like function expression, but instead of dec anonymous as a value, it will give a name to it as
-var c = function d(){
-    console.log("d called");
-}
-
-//But corner case here is that, we cannot call d() directly, as it will give us a reference error
-
 //First class functions
 //A function can be treated as a variable, it can be passed as an argument to another function
 //it can be returned from a function
-
