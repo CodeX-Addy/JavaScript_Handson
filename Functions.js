@@ -22,7 +22,15 @@ const multiplication = function(a, b){
 let ans = multiplication(2,3);
 console.log(ans);
 
-//Arrow function --> mostly used
+// Arrow function --> mostly used
+
+const multiplication = (a, b) => {
+    return a * b;
+}
+
+let ans = multiplication(2, 3)
+console.log(ans);
+
 const average = (x, y) => {
     return (x+y)/2;
 }
