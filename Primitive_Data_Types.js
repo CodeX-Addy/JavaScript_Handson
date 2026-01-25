@@ -32,7 +32,7 @@ let g;
 console.log(a,b,c,sym1,e,f,g);
 console.log(typeof a,typeof b,typeof c,typeof d,typeof e,typeof f, typeof g);
 
-// Pointer 2: Non-Primitive Datatype : Objects
+// Pointer 2: Non-Primitive Datatype (Reference types) : Objects, Arrays, Functions
 let obj = {
     Name: "Aditya",
     Age: 20
