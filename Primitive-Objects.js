@@ -8,7 +8,7 @@ B : BigInt
 U : undefined */
 
 let a = null;
-let b = 527;
+let b = 527; //It could be floating point as well
 let c = "Eso";
 let d = Symbol("A symbol type");
 let e = true;
