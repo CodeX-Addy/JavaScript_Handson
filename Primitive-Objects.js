@@ -8,9 +8,19 @@ B : BigInt
 U : undefined */
 
 let a = null;
-let b = 527; //It could be floating point as well, having range is -(2^53 - 1) to (2^53 - 1)
+
+//It could be floating point as well, having range is -(2^53 - 1) to (2^53 - 1)
+let b = 527; 
+
 let c = "Eso";
-let d = Symbol("A symbol type");
+
+// Note, it is has reference identity, means we cannot create same symbol type twice
+const sym1 = Symbol();
+const sym2 = Symbol("foo");
+const sym3 = Symbol("foo");
+
+Symbol("foo") === Symbol("foo"); // false
+
 let e = true;
 let f = BigInt("528"); // If we need larger numbers than Number's range
 let g;
