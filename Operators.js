@@ -57,3 +57,9 @@ console.log(obj === str); // false
 console.log(null === undefined); // false
 console.log(obj === null); // false
 console.log(obj === undefined); // false
+
+// Ternary Operator
+
+let a = 5;
+
+(a > 10) ? console.log("yes") : console.log("no")
