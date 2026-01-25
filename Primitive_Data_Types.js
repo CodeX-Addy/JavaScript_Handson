@@ -32,9 +32,11 @@ let g;
 console.log(a,b,c,sym1,e,f,g);
 console.log(typeof a,typeof b,typeof c,typeof d,typeof e,typeof f, typeof g);
 
-// Pointer 2: Non-Primitive Datatype (Reference types) : Objects, Arrays, Functions
+// Pointer 2: Non-Primitive Datatype (Reference types) : Objects, Arrays, Functions -> their actual values stores in heap memory, and reference will be on stack 
 let obj = {
     Name: "Aditya",
     Age: 20
 }
 console.log(obj["Name"])
+
+// From above example, obj stores in stack memory as reference, whereas, the values will be store in heap memory 
