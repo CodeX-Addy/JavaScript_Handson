@@ -18,6 +18,13 @@ console.log(f);
 // Aditya
 // Tomar
 
+// We can use the strings with backticks as well like
+
+let name1 = `aditya
+tomar`;
+
+console.log(name1); // -> will print aditya and tomar in next line
+
 //String Methods
 
 let name = "Esoteric";
