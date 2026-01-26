@@ -83,12 +83,20 @@ array1.map((number, index) => {
     console.log(number + '->' + index )    // 10 -> 0 , 20 -> 1 , 30 -> 2
 })
 
-//Filter:- As name suggests : it will also returns a new array
+//Filter:- As name suggests : it will also returns a new array based on some boolean conditions
 let array2 = [50,60,70]
 let a2 = array2.filter((a)=>{
     return a < 70
 })
 console.log(a2)
+
+// Now we want to print string only values from this array
+let brr = [1, 2, "abc", "def"];
+let ans = brr.filter((str) => {
+    return typeof(str) === "string";
+})
+console.log(ans);
+
 
 //Reduce: Below function takes 1&2 initially and add then take result + next then add and so on..
 let array3 = [1,2,3,4,5]
