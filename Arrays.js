@@ -53,6 +53,10 @@ let ex1 = [1,2,3,4,5]
 ex1.splice(2, 3, 100, 200, 300) //Means starting from 2nd index, delete 3 elements and then add 100,200 and 300
 console.log(ex1)
 
+// if we don't want to remove anything from ex1 using splice
+ex1.splice(1, 0, "Splice")
+console.log(ex1) 
+
 //Slice
 let ex2 = [1,2,3,4,5]
 console.log(ex2.slice(2, 4)); //Returns the elements from 2nd index
