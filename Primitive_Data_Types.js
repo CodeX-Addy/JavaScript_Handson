@@ -39,12 +39,12 @@ let obj = {
 }
 console.log(obj["Name"])
 
-let obj = {
+let obj2 = {
     printName: function print(name){
         console.log(`${name}`);
     }
 }
 
-obj.printName("aditya")
+obj2.printName("aditya")
 
 // From above example, obj stores in stack memory as reference, whereas, the values will be store in heap memory 
