@@ -78,6 +78,11 @@ let ansArray1 = array1.map((number) => {
 })
 console.log(ansArray1); // [100, 400, 900]
 
+//We can use index as well with map
+array1.map((number, index) => {
+    console.log(number + '->' + index )    // 10 -> 0 , 20 -> 1 , 30 -> 2
+})
+
 //Filter:- As name suggests : it will also returns a new array
 let array2 = [50,60,70]
 let a2 = array2.filter((a)=>{
