@@ -71,11 +71,12 @@ ex3.forEach((element) => {
 let ex4 = Array.from("Aditya");
 console.log(ex4); 
 
-//Map:- It will returns a new array
+//Map:- It will returns a new array after performing some functions, for example squaring of this array
 let array1 = [10,20,30]
-array1.map((value, index, array)=>{
-    console.log(value, index, array);
+let ansArray1 = array1.map((number) => {
+    return number * number;
 })
+console.log(ansArray1); // [100, 400, 900]
 
 //Filter:- As name suggests : it will also returns a new array
 let array2 = [50,60,70]
