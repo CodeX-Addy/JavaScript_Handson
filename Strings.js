@@ -43,3 +43,8 @@ console.log(m.trim()); //Trim
 //Quick Practice: Extract 500 from given string "Credit Score is 500"
 let str = "Credit Score is 500";
 console.log(Number.parseInt(str.slice(16)));
+
+//Another way to declare a string using String constructor -> it will create an object type
+let str1 = new String("aditya..")
+console.log(str1);
+console.log(typeof str1);
