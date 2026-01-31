@@ -1,4 +1,4 @@
-//Major changes in functions after ECMAScript 6
+// Major changes have introduced in functions after ECMAScript 6
 
 function greetings(name){
     console.log(`Hello ${name}`)
@@ -6,14 +6,16 @@ function greetings(name){
 
 greetings("Coders")
 
-//Taking an example of averaging function in order to understand the syntax
+// Taking an example of averaging function in order to understand the syntax
 function avg(x, y){
     return (x + y) / 2;
 }
 
 console.log("Average of 2 and 3 is : ", avg(2,3));
 
-// We can also assign functions as a variable as below:
+// ---------------------------------------------------------------------------
+// FUNCTION DECLARATION AS A VARIABLE
+// ---------------------------------------------------------------------------
 
 const multiplication = function(a, b){
     return a * b;
@@ -22,7 +24,9 @@ const multiplication = function(a, b){
 let ans = multiplication(2,3);
 console.log(ans);
 
-// Arrow function --> mostly used
+// ---------------------------------------------------------------------------
+// ARROW FUNCTIONS
+// ---------------------------------------------------------------------------
 
 const multiplication = (a, b) => {
     return a * b;
@@ -49,7 +53,9 @@ var b = function(){
 }
 b();
 
-// Passing function as a variable
+// ---------------------------------------------------------------------------
+// PASSING FUNCTION AS A VARIABLE
+// ---------------------------------------------------------------------------
 
 function greet(){
     console.log("Greeting from my side..");
@@ -62,4 +68,16 @@ function greetMe(greet){
 
 greetMe(greet);
 
+// ---------------------------------------------------------------------------
+// FUNCTION CAN BE RETURNED FROM ANOTHER FUNCTION
+// ---------------------------------------------------------------------------
 
+function solve(){
+    return function square(number){
+        return number * number;
+    }
+}
+
+let ans = solve();
+let finalAns = ans(10);
+console.log(finalAns);
