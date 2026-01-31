@@ -5,3 +5,7 @@ let obj = {
         department : "CS"
     }
 };
+
+// Shallow Copy
+let obj2 = obj;
+console.log(obj2);
