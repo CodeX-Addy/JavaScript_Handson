@@ -49,11 +49,17 @@ var b = function(){
 }
 b();
 
-//The basic difference b/w func statement & expression is "Hoisting", means we can access/call a() before statement as JS engine will reserves memory space for it, but in case of expression b() will leads to be undefined and will throw a reference error 
+// Passing function as a variable
 
-//Anonymous functions --> A function without any name
-//function (){} --> it will give us an error since these functions are ideal when we've to use it as a value
+function greet(){
+    console.log("Greeting from my side..");
+}
 
-//First class functions
-//A function can be treated as a variable, it can be passed as an argument to another function
-//it can be returned from a function
+function greetMe(greet){
+    console.log("Hi" + ' ' + "Addy");
+    greet();
+}
+
+greetMe(greet);
+
+
