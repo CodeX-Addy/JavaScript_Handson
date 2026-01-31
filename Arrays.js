@@ -98,9 +98,11 @@ let ans = brr.filter((str) => {
 console.log(ans);
 
 
-//Reduce: Below function takes 1&2 initially and add then take result + next then add and so on..
-let array3 = [1,2,3,4,5]
-let a3 = array3.reduce((a, b)=>{
-    return a+b;
-})
-console.log(a3)
+//Reduce: it has two variables internally, say accumulator and curr, if acc is 0, then curr will be pointing towards 1st index
+const arr = [10,20,30,40];
+
+const ans = arr.reduce((acc, curr) => {
+    return acc + curr;
+}, 0);
+
+console.log(ans);
