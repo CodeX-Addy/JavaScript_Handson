@@ -57,5 +57,4 @@ const ans = (arr) => {
     })
     return sum;
 }
-
 console.log(ans([10, 20, 30, 40]));
