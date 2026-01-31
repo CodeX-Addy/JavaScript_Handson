@@ -8,7 +8,7 @@ console.log(b); //It will not throw any error rather returns undefined, since b 
 
 //let a = 10;
 //var b = 100;
-//With the var declaration of b, we can access it via window object in console since var declaration will be global
+// With the var declaration of b, we can access it via window object in console since var declaration will be global
 
 //In case of let & const variables, there will be a separate memory declaration
 
