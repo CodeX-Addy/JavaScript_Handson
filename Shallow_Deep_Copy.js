@@ -10,6 +10,6 @@ let obj = {
 let obj2 = obj;
 console.log(obj2);
 
-// Deep copy
+// Deep copy -> means obj3 in stack memory will ref/points to the new same object values in heap memory
 let obj3 = JSON.parse(JSON.stringify(obj));
 console.log(obj3);
