@@ -81,3 +81,22 @@ function solve(){
 let ans = solve();
 let finalAns = ans(10);
 console.log(finalAns);
+
+// ---------------------------------------------------------------------------
+// PASSING FUNCTION IN AN ARRAY
+// ---------------------------------------------------------------------------
+
+const arr = [
+
+function (a, b){
+    return a + b;
+}, 
+
+function (a, b){
+    return a - b;
+}
+    
+]
+
+let add_function = arr[0];
+console.log(add_function(12, 11));
