@@ -42,3 +42,10 @@ y = Number.parseInt(y);
     console.log(y);
     y++;
  }while(y<3);
+
+// For Each Loop
+const arr = [1,2,2,3,4,5,];
+
+arr.forEach((num, ind) => {
+    console.log(`The number ${num} present on this index ${ind}`);
+})
