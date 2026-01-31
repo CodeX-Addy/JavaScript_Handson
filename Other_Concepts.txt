@@ -67,7 +67,7 @@ FUNCTION AKA FIRST CLASS CITIZENS
 ----------------------------------------------------------------------------
 
 In JS, function can be used via normal declaration as a variable, can be 
-returned from a function, can be used as an argument
+returned from a function, can be used as an argument, can be stored in DS
 
 
 
