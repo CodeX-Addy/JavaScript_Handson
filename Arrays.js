@@ -98,7 +98,7 @@ let ans = brr.filter((str) => {
 console.log(ans);
 
 
-//Reduce: it has two variables internally, say accumulator and curr, if acc is 0, then curr will be pointing towards 1st index
+//Reduce: it has two variables internally, say accumulator and curr, if acc is 0, then curr will be pointing towards 1st element
 const arr = [10,20,30,40];
 
 const ans = arr.reduce((acc, curr) => {
@@ -106,3 +106,13 @@ const ans = arr.reduce((acc, curr) => {
 }, 0);
 
 console.log(ans);
+
+/*
+Reduce Dry Run:
+
+acc = 0, curr = 10 -> 0 + 10 = 10
+acc = 10. curr = 20 -> 10 + 20 = 30;
+acc = 30, curr = 30 -> 30 + 30 = 60
+acc = 60, curr = 40 -> 60 + 40 = 100
+
+*/
