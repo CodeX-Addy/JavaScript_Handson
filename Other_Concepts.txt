@@ -1,3 +1,50 @@
+----------------------------------------------------------------------------
+HOISTING
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+VARIABLE HOISTING
+----------------------------------------------------------------------------
+
+console.log(a);
+var a = 20; 
+
+The output is undefined, as in this case the variable declaration will be 
+copied to top of it's scope and not declaration
+
+It can be done with 'var' keyword and not with 'let' and 'const'
+
+----------------------------------------------------------------------------
+FUNCTION HOISTING
+----------------------------------------------------------------------------
+
+greet();
+
+function greet(){
+    console.log("Hello");
+}
+
+It'll give the output as Hello, since the complete function definition will
+comes to the top of the scope
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 console.log(a); //We'll get an error since we're trying to access 'a' before initializing, and here the Temporal Dead Zone for 'a' will starts
 
 //Temporal Dead Zone : It is a phase b/w hoisting a variable till the declaration
