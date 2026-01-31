@@ -21,7 +21,7 @@ for(let i in obj){
     console.log("Marks of " + i + " is " + obj[i]);
 }
 
-//For of loop --> only for iterable objects like arrays, strings
+//For of loop --> also for iterable objects like arrays, strings, objects
 
  for(let a of "Aditya"){
     console.log(a);
