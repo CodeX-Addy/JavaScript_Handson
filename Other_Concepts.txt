@@ -27,6 +27,8 @@ function greet(){
 It'll give the output as Hello, since the complete function definition will
 comes to the top of the scope
 
+This can't be done with the function expression
+
 
 
 
