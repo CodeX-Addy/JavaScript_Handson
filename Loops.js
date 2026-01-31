@@ -49,3 +49,13 @@ const arr = [1,2,2,3,4,5,];
 arr.forEach((num, ind) => {
     console.log(`The number ${num} present on this index ${ind}`);
 })
+
+const ans = (arr) => {
+    let sum = 0;
+    arr.forEach((num) => {
+        sum += num;
+    })
+    return sum;
+}
+
+console.log(ans([10, 20, 30, 40]));
