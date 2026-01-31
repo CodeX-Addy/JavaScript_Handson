@@ -30,8 +30,37 @@ comes to the top of the scope
 This can't be done with the function expression
 
 
+----------------------------------------------------------------------------
+FUNCTION CALL STACK
+----------------------------------------------------------------------------
 
+A Stack DS is used for this
 
+See the below code for better understanding:
+
+D(){
+
+}
+
+C(){
+
+D()
+}
+
+B(){
+
+C()
+}
+
+A(){
+
+B()
+}
+
+A()
+
+The stack will be filled from A -> D where D is in top of stack
+So the execution will be in the LIFO Order 
 
 
 
