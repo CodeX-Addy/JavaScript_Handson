@@ -6,7 +6,7 @@ let obj = {
     }
 };
 
-// Shallow Copy
+// Shallow Copy -> means obj2 will reference/points to the same object as obj in heap memory
 let obj2 = obj;
 console.log(obj2);
 
