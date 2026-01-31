@@ -16,7 +16,7 @@ console.log(a.join("-")); // Join elements and returns a string
 console.log(a.concat(5,6,7)); // Concatenates elements and returns a new array
 console.log(a.pop()); // Pop from the end
 console.log(a.push(5)); // Adds elements to the end of the array and returns the new length of arr
-console.log(a);
+console.log(a.indexOf(4);
 
 // Shift
 console.log(a.shift()); // Removes the first element of the array and returns the removed element
