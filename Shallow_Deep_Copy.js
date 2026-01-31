@@ -6,10 +6,10 @@ let obj = {
     }
 };
 
-// Shallow Copy -> means obj2 will reference/points to the same object as obj in heap memory
+// Shallow Copy -> means obj2 of stack memory will reference/points to the same object as obj in heap memory
 let obj2 = obj;
 console.log(obj2);
 
-// Deep copy -> means obj3 in stack memory will ref/points to the new same object values in heap memory
+// Deep copy -> means obj3 of stack memory will ref/points to the new same object values in heap memory
 let obj3 = JSON.parse(JSON.stringify(obj));
 console.log(obj3);
