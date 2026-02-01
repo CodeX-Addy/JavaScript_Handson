@@ -5,7 +5,7 @@
 class Human{
     
     //properties
-    #age = 23; // with pound sign, we declare private data member inside class
+    #age = 23; // with pound sign, we declare private data member inside the class
     wt = 70;
     
     //behaviour
