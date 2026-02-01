@@ -80,3 +80,22 @@ class Human{
 
 let obj = new Human();
 console.log(obj.get_age;
+
+
+// *************************************************************************************
+// CONSTRUCTORS
+// *************************************************************************************
+
+class Human{
+    
+    age;
+    height;
+    
+    constructor(age, height){
+        this.age = age;
+        this.height = height;
+    }
+}
+
+let obj = new Human(2, 3);
+console.log(obj.age, obj.height);
