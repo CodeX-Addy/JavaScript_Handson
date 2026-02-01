@@ -23,6 +23,7 @@ console.log(obj.#age);
 console.log(obj.wt);
 obj.walking();
 
+
 // *************************************************************************************
 // TO ACESS PRIVATE MEMBERS INSIDE THE CLASS -> THIS KEYWORD
 // *************************************************************************************
@@ -46,3 +47,36 @@ class Human{
 let obj = new Human();
 console.log(obj.wt);
 obj.walking();
+
+// *************************************************************************************
+// TO ACCESS PRIVATE MEMBERS OUTSIDE CLASS -> GETTER/SETTER
+// *************************************************************************************
+
+class Human{
+    
+    //properties
+    #age = 23;
+    wt = 70;
+    
+    //behaviour
+    walking(){
+        console.log("walking...", this.#age);
+    }
+    
+    running(){
+        console.log("running...");
+    }
+    
+    //getter
+    get get_age(){
+        return this.#age;
+    }
+    
+    //setter
+    set set_age(val){
+        this.#age = val;
+    }
+}
+
+let obj = new Human();
+console.log(obj.get_age;
