@@ -1,6 +1,6 @@
-# The JavaScript Tutorial....All you need to know!!
+# The JavaScript....All you need to know!!
 
-This tutorial covers most of the topics of JavaScript
+This repo covers most of the topics of JavaScript
 - JS is dynamically typed language => data types of variable may change at run time.
 - The inbuilt browser's js engine for various browsers are: Apple -> JavaScriptCore, Google -> V8, Mozilla Firefox -> SpiderMonkey etc
 
