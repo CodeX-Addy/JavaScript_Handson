@@ -137,4 +137,4 @@ function utility(name = "aditya", age = getAge()){
     console.log(name, age);
 }
 
-utility();
+utility(); // aditya 23
