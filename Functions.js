@@ -112,3 +112,11 @@ function greetYou(name="aditya"){
 
 greetYou("aditya");
 greetYou();
+
+
+function greetYouAgain(fname="aditya", lname="tomar"){
+    console.log("name is:", fname, lname);
+}
+
+greetYouAgain("aditya");
+greetYouAgain();
