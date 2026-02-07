@@ -127,3 +127,14 @@ function otherVariations(name="aditya"){
 
 otherVariations(null); //it will print null in this case
 otherVariations(undefined); // it will give defaulting value "aditya" in this case
+
+//Ww can also pass functions as a default values
+function getAge(){
+    return 23;
+}
+
+function utility(name = "aditya", age = getAge()){
+    console.log(name, age);
+}
+
+utility();
