@@ -120,3 +120,10 @@ function greetYouAgain(fname="aditya", lname="tomar"){
 
 greetYouAgain("aditya");
 greetYouAgain();
+
+function otherVariations(name="aditya"){
+    console.log(name);
+}
+
+otherVariations(null); //it will print null in this case
+otherVariations(undefined); // it will give defaulting value "aditya" in this case
