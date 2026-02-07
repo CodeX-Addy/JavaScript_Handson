@@ -100,3 +100,15 @@ function (a, b){
 
 let add_function = arr[0];
 console.log(add_function(12, 11));
+
+
+// ---------------------------------------------------------------------------
+// DEFAULT PARAMETERS
+// ---------------------------------------------------------------------------
+
+function greetYou(name="aditya"){
+    console.log("name is:", name);
+}
+
+greetYou("aditya");
+greetYou();
