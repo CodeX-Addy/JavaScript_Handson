@@ -79,4 +79,4 @@ console.log("There");
 const marks = 100;
 
 From Line 76 to 79, we called it temporal dead zone, as the marks can't be 
-accessed in this part
+accessed in this part of code
