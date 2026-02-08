@@ -21,7 +21,7 @@
   let element = document.getElementById("heading")
   element.innerText = 'Hey there'
   ```
-- To append the element:
+- To append the element (it'll add at last by default):
   ```
   let addElement = document.createElement('h1')
   addElement.textContent = 'This is another heading'
