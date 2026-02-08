@@ -9,7 +9,7 @@
 
 
 *******************************************************************
-## DOCUMENT 
+## DOCUMENT OBJECT
 *******************************************************************
 - HTML code is converted into JS Object is called as document
 - Some methods inside document object includes getElementById,
