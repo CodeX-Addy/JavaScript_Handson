@@ -10,4 +10,4 @@
 *******************************************************************
 ## DOCUMENT 
 *******************************************************************
-- HTML code is converted into JS Object is called as documen
+- HTML code is converted into JS Object is called as document
