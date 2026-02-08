@@ -29,6 +29,15 @@
   bodyTag.appendChild(addElement);
   <h1>​This is another heading​</h1>​
   ```
+
+- To append the element at some custom position
+  ```
+  let addElement = document.createElement('h1')
+  addElement.textContent = 'This is another heading'
+  let bodyTag = document.querySelector('body');
+  bodyTag.insertAdjacentElement("beforebegin", newElement);
+  <h2>​This is a h2​</h2>​
+  ```
   
 *******************************************************************
 ## DOM (DOCUMENT OBJECT MODEL)
