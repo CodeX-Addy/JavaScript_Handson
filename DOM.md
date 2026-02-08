@@ -12,7 +12,9 @@
 ## DOCUMENT 
 *******************************************************************
 - HTML code is converted into JS Object is called as document
-
+- Some methods inside document object includes getElementById,
+  getElementByClassName, getElementByTagName, querySelector (it
+  takes first element by default), querySelectorAll
 
 *******************************************************************
 ## DOM (DOCUMENT OBJECT MODEL)
