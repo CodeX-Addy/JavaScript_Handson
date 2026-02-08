@@ -38,6 +38,14 @@
   bodyTag.insertAdjacentElement("beforebegin", newElement);
   <h2>​This is a h2​</h2>​
   ```
+
+  - To remove a child node
+    ```
+    let parent = document.querySelector('body');
+    let child = document.querySelector(#heading);
+    parent.removeChild(child);
+    <h1 id=​"heading">​This is a heading​</h1>​
+    ```
   
 *******************************************************************
 ## DOM (DOCUMENT OBJECT MODEL)
