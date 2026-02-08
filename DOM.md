@@ -17,9 +17,19 @@
   getElementByTagName, querySelector (it takes first element by
   default), querySelectorAll
 - To update the text:
+  ```
   let element = document.getElementById("heading")
   element.innerText = 'Hey there'
-
+  ```
+- To append the element:
+  ```
+  let addElement = document.createElement('h1')
+  addElement.textContent = 'This is another heading'
+  let bodyTag = document.querySelector('body');
+  bodyTag.appendChild(addElement);
+  <h1>​This is another heading​</h1>​
+  ```
+  
 *******************************************************************
 ## DOM (DOCUMENT OBJECT MODEL)
 *******************************************************************
