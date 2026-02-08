@@ -11,3 +11,10 @@
 ## DOCUMENT 
 *******************************************************************
 - HTML code is converted into JS Object is called as document
+
+
+*******************************************************************
+## DOM (DOCUMENT OBJECT MODEL)
+*******************************************************************
+- HTML Tags tokenizes into tokens which then converted to nodes
+- Then nodes is used to represent a tree like structure called DOM
