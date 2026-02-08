@@ -16,6 +16,9 @@
 - To access: getElementById, getElementByClassName,
   getElementByTagName, querySelector (it takes first element by
   default), querySelectorAll
+- To update the text:
+  let element = document.getElementById("heading")
+  element.innerText = 'Hey there'
 
 *******************************************************************
 ## DOM (DOCUMENT OBJECT MODEL)
