@@ -1,4 +1,4 @@
-# The JavaScript....All you need to know!!
+# The JavaScript....All you need to know!
 
 This repo covers most of the topics of JavaScript
 - JS is dynamically typed language => data types of variable decides at run time.
